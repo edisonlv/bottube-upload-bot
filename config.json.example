@@ -1,0 +1,63 @@
+{
+  "bottube": {
+    "api_url": "https://bottube.example.com/api/upload",
+    "api_key": "YOUR_API_KEY_HERE"
+  },
+  "video": {
+    "output_dir": "generated",
+    "duration_per_slide": 5,
+    "resolution": "1920x1080",
+    "fps": 30,
+    "background_music": "assets/background.mp3"
+  },
+  "topics": [
+    {
+      "name": "AI Agents",
+      "keywords": ["AI agents", "autonomous agents", "LLM agents", "multi-agent systems"],
+      "captions": [
+        "The Future of AI Agents",
+        "Autonomous AI Systems Are Here",
+        "Building Intelligent Agents",
+        "Multi-Agent AI Architecture"
+      ]
+    },
+    {
+      "name": "RustChain",
+      "keywords": ["RustChain", "Rust blockchain", "high-performance blockchain"],
+      "captions": [
+        "RustChain: Speed Meets Security",
+        "Building the Future with Rust",
+        "RustChain Developer Guide",
+        "Why Rust for Blockchain"
+      ]
+    },
+    {
+      "name": "Blockchain",
+      "keywords": ["blockchain", "decentralized", "Web3", "smart contracts"],
+      "captions": [
+        "Understanding Blockchain Technology",
+        "Decentralized Future",
+        "Web3 Revolution",
+        "Smart Contracts Explained"
+      ]
+    },
+    {
+      "name": "Decentralized Systems",
+      "keywords": ["decentralized systems", "P2P", "distributed computing", "consensus"],
+      "captions": [
+        "Decentralized Systems Design",
+        "P2P Networks Explained",
+        "Consensus Algorithms",
+        "Distributed Computing 101"
+      ]
+    }
+  ],
+  "schedule": {
+    "mode": "daemon",
+    "interval_minutes": 60,
+    "upload_times": ["09:00", "15:00", "21:00"]
+  },
+  "database": {
+    "path": "bottube.db"
+  }
+}
